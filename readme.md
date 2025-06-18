@@ -1,0 +1,3 @@
+I was having some problems with Exchange Hybrid where on-prem side had been incorrectly managed without Exchange. As you probably know, all changes must be made via Exchange (or at least Exchange cmdlets these days).
+
+This was some stuff that I put together to find out mailboxes that were inconsistent and needed fixing up. There was also a fixup script but I can't find it anymore. I'll update if I do.

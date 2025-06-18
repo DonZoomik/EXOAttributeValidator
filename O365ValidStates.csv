@@ -1,0 +1,18 @@
+ValidObjectClass;ValidObjectType;AD-objectClass;AD-msExchRemoteRecipientType;AD-msExchRecipientDisplayType;AD-msExchRecipientTypeDetails;AD-msExchResourceMetaData;AD-sAMAccountType;AD-groupType;EXL-RemoteRecipientType;EXL-RecipientType;EXL-RecipientTypeDetails;EXL-ResourceType;EXL-GroupType;EXO-RemoteRecipientType;EXO-RecipientType;EXO-RecipientTypeDetails;EXO-ResourceType;EXO-GroupType
+Mail Objects;Mail-Enabled User;user;;6;128;;;;;MailUser;MailUser;;;;MailUser;MailUser;;
+Mail Objects;Mail-Enabled Contact;contact;;6;;;;;;MailContact;MailContact;;;;MailContact;MailContact;;
+Mail Objects;Mail-Enabled Distribution Group;group;;1;;;268435457;8;;MailUniversalDistributionGroup;MailUniversalDistributionGroup;;Universal;;MailUniversalDistributionGroup;MailUniversalDistributionGroup;;Universal
+Mail Objects;Mail-Enabled Security Group;group;;1073741833;;;268435456;-2147483640;;MailUniversalSecurityGroup;MailUniversalSecurityGroup;;Universal, SecurityEnabled;;MailUniversalSecurityGroup;MailUniversalSecurityGroup;;Universal, SecurityEnabled
+Mail Users;Mail-Enabled User;user;;6;128;;;;;MailUser;MailUser;;;;MailBox;MailBox;;
+On-Premises Mailbox Objects;Mailbox (User);user;;1073741824;1;;;;None;UserMailbox;UserMailbox;;;;MailUser;MailUser;;
+On-Premises Mailbox Objects;Mailbox (Shared);user;;0;4;;;;None;UserMailbox;SharedMailbox;;;;MailUser;MailUser;;
+On-Premises Mailbox Objects;Mailbox (Room);user;;7;16;ResourceType:Room;;;None;UserMailbox;RoomMailbox;Room;;;MailUser;MailUser;Room;
+On-Premises Mailbox Objects;Mailbox (Equipment) ;user;;8;32;ResourceType:Equipment;;;None;UserMailbox;EquipmentMailbox;Equipment;;;MailUser;MailUser;Equipment;
+Remote Mailbox;Remote Mailbox (User) - Provision;user;1;-2147483642;2147483648;;;;ProvisionMailbox;MailUser;RemoteUserMailbox;;;ProvisionMailbox;UserMailbox;UserMailbox;;
+Remote Mailbox;Remote Mailbox (Shared) - Provision;user;;;;;;;;;;;;;;;;
+Remote Mailbox;Remote Mailbox (Room) - Provision;user;33;-2147481850;8589934592;;;;ProvisionMailbox, RoomMailbox;MailUser;RemoteRoomMailbox;;;ProvisionMailbox, RoomMailbox;UserMailbox;RoomMailbox;Room;
+Remote Mailbox;Remote Mailbox (Equipment) - Provision;user;65;-2147481594;17179869184;;;;ProvisionMailbox, EquipmentMailbox;MailUser;RemoteEquipmentMailbox;;;ProvisionMailbox, EquipmentMailbox;UserMailbox;EquipmentMailbox;Equipment;
+Migrated Mailboxes;Remote Mailbox (User) - Migrated;user;4;-2147483642;2147483648;;;;Migrated;MailUser;RemoteUserMailbox;;;Migrated;UserMailbox;UserMailbox;;
+Migrated Mailboxes;Remote Mailbox (Shared)- Migrated;user;100;-2147483642;34359738368;;;;Migrated, SharedMailbox;MailUser;RemoteSharedMailbox;;;Migrated, SharedMailbox;UserMailbox;SharedMailbox;;
+Migrated Mailboxes;Remote Mailbox (Room) - Migrated;user;36;-2147481850;8589934592;;;;Migrated, RoomMailbox;MailUser;RemoteRoomMailbox;Room;;Migrated, RoomMailbox;UserMailbox;RoomMailbox;Room;
+Migrated Mailboxes;Remote Mailbox (Equipment) - Migrated;user;68;-2147481594;17179869184;;;;Migrated, EquipmentMailbox;MailUser;RemoteEquipmentMailbox;Equipment;;Migrated, EquipmentMailbox;UserMailbox;EquipmentMailbox;Equipment;
